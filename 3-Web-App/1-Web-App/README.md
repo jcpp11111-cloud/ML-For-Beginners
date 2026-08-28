@@ -65,9 +65,7 @@ In the blank [notebook](notebook.ipynb) included in this lesson:
 1. Convert the ufos data to a small dataframe with fresh titles. Check the unique values in the `Country` field.
 
     ```python
-    ufos = pd.DataFrame({'Seconds': ufos['duration (seconds)'], 'Country': ufos['country'],'Latitude': ufos['latitude'],'Longitude': ufos['longitude']})
-    
-    ufos.Country.unique()
+     
     ```
 
 1. Now, you can reduce the amount of data we need to deal with by dropping any null values and only importing sightings between 1-60 seconds:
